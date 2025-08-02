@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -9,13 +8,19 @@
       font-family: Arial, sans-serif;
       background-color: #f2f2f2;
       margin: 0;
-      padding: 20px;
+      padding: 0;
     }
-    .container {
+    header {
+      background-color: #5f27cd;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+    }
+    section {
       max-width: 800px;
       margin: auto;
+      padding: 2rem;
       background: white;
-      padding: 30px;
       border-radius: 10px;
       box-shadow: 0 0 10px #ccc;
     }
@@ -26,10 +31,7 @@
       font-size: 16px;
       line-height: 1.6;
     }
-    .contato {
-      margin-top: 20px;
-    }
-    .certificados {
+    .contato, .certificados {
       margin-top: 30px;
     }
     .certificados img {
@@ -37,24 +39,46 @@
       margin-top: 10px;
       border: 1px solid #ccc;
     }
+    footer {
+      background-color: #ddd;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    a {
+      color: #5f27cd;
+      text-decoration: none;
+    }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Solange de Souza Ferreira</h1>
-    <p><strong>Objetivo:</strong> Atuar na área de tecnologia, como suporte técnico ou auxiliar de TI, com vontade de aprender e crescer profissionalmente.</p>
+
+  <header>
+    <h1>Olá! Eu sou a Solange 👩‍💻</h1>
+    <p>Futura engenheira de software apaixonada por tecnologia e aprendizado contínuo.</p>
+  </header>
+
+  <section>
+    <h2>🎯 Objetivo Profissional</h2>
+    <p>Atuar na área de tecnologia, como suporte técnico ou auxiliar de TI, com vontade de aprender e crescer profissionalmente.</p>
 
     <div class="contato">
+      <h2>📫 Contato</h2>
       <p><strong>WhatsApp:</strong> (69) 9 9232-6782</p>
       <p><strong>E-mail:</strong> solangeengenheirasoftware@hotmail.com</p>
     </div>
 
     <div class="certificados">
-      <h2>Certificados</h2>
+      <h2>📜 Certificados</h2>
       <img src="certificado1.jpg" alt="Certificado SENAR">
       <img src="certificado2.jpg" alt="Curso Renda Extra">
       <img src="certificado3.jpg" alt="Curso Inteligência Artificial">
     </div>
-  </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Solange • Todos os direitos reservados</p>
+  </footer>
+
 </body>
 </html>
